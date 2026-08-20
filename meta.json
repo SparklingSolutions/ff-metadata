@@ -1,0 +1,25 @@
+{
+    "config": {
+        "products": {
+            "firefly-installer": {
+                "enabled": true
+            }
+        }
+    },
+    "channels": {
+        "stable": {
+            "products": {
+                "firefly-installer": {
+                    "name": "Loader",
+                    "variants": [
+                        {
+                            "compatibility": "*",
+                            "path": "build/001fb3ed-a801-4eba-a648-7857721f8fd2",
+                            "hash": "a0d1e7c2dc1aedf6a072a8a7a546992b2a934170ca80551cd58b863d68d47ee8"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}
